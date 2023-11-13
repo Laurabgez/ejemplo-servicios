@@ -1,0 +1,111 @@
+/**Generales**/
+
+body{
+    background-color:#FBEDCA ;
+    font-family:'Nanum Gothic', sans-serif;
+    color:#241C15;
+}
+
+.ul-reset {
+    list-style: none;
+}
+/**componentes**/
+
+.title{
+    font-family:'Raleway',sans-serif;
+}
+
+.container{
+    margin-inline: auto;
+    max-width: 1000px;
+    padding: 1rem;
+}
+.image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.button {
+    display:block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+    background-color: #007C89;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.button:hover{
+    background: #C5DBF2;
+    color: #241C15;
+}
+.button--transparent{
+    background-color: transparent;
+    color: #241C15;
+}
+
+.link{
+    color: #007C89;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/**Precios**/
+
+.prices__columns{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    overflow: auto;
+}
+.info{
+    position:relative;
+    background-color: #FFF;
+    padding: 2rem;
+    border:1px solid darkgray;
+    min-width: 10rem;
+}
+
+.info__alert{
+    display:none;
+    position:absolute;
+    background-color: yellow;
+    padding-block: .5rem;
+    padding-inline: 2rem;
+    top:0;
+    left:0;
+    right: 0;
+    margin: 0;
+}
+
+.info__alert--show{
+    display: block;
+}
+.info__description{
+    min-height: 6rem;
+}
+
+.info__block{
+    display: block;
+}
+
+.info__number-price{
+    font-size: 2.5rem;
+}
+
+.info__buy~{
+    margin-block: 2rem;
+}
+
+.info__list{
+    list-style-image: url("../img/check.avif");
+   margin-left:-1rem;
+    min-height: 40rem;
+
+}
+
+.info__item{
+    margin-bottom: 1rem;
+}
+
